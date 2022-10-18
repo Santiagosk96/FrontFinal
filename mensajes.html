@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+        <nav class="bg-gray-800">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div class="flex h-16 items-center justify-between">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0">
+                    <img class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+                  </div>
+                  <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                      <a href="index.html" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Inicio</a>
+        
+                      <a href="room.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Habitaciones</a>
+        
+                      <a href="cliente.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Clientes</a>
+        
+                      <a href="categoria.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Categorias</a>
+        
+                      <a href="reservaciones.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Reservaciones</a>
+                    
+                      <a href="reportes.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Reportes</a>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+        
+        
+          </nav>
+          <div class="flex-shrink-0">
+            <img class="h-8 w-8" src="data:image/png;base64,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" alt="Your Company"><h1>Mensajes</h1>
+          </div>
+
+          <script type="text/javascript">
+            window.onload = getCliente_Reservaciones();
+        </script>
+        <label>Escoja el cliente</label>
+        <select id="select-client"> </select><br>
+
+        <script type="text/javascript">
+            window.onload = getRoom_Reservaciones();
+        </script>
+        <label>Escoja la habitacion</label>
+        <select id="select-room"> </select>
+
+        <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="postMensajes()">
+            Crear Mensaje
+        </button>
+
+    </body>
+
+</html>
